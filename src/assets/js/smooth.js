@@ -1,3 +1,3 @@
 export function smooth() {
-    console.log(smooth)
+    console.log(smooth);
 }

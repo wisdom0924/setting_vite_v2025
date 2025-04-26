@@ -1,3 +1,3 @@
 export function link() {
-    console.log(link)
+    console.log(link);
 }

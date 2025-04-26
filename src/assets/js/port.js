@@ -1,3 +1,3 @@
 export function port() {
-    console.log(port)
+    console.log(port);
 }

@@ -45,9 +45,7 @@ input,
 select,
 table,
 textarea {
-    font-family:
-        var(--mainEng-font), var(--mainKor-font), 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', helvetica,
-        sans-serif;
+    font-family: $mainEng-font, $mainKor-font, 'Apple SD Gothic Neo', 'Malgun Gothic', '맑은 고딕', helvetica, sans-serif;
 }
 
 /* 링크 초기화 */
@@ -94,10 +92,11 @@ img {
     z-index: 100000;
     font-size: 1rem;
     padding: 10px 30px;
-    color: var(--white);
-    background: var(--black);
-}
-#skip a:focus,
-#skip a:active {
-    top: 10px;
-}
+    color: $white;
+    background: $black;
+    
+    &:focus,
+    &:active {
+        top: 10px;
+    }
+} 
